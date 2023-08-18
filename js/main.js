@@ -22,7 +22,8 @@ function start_fire_audio(){
     
 }
 function start_fire_audio1(){
-    
+    iframe.style.display = 'block'
+    iframe.src = 'https://www.youtube.com/embed/24xMN8MoQCE'
     dialog1.showModal()
     audio.pause()
     my_img.classList.remove('root')
@@ -31,7 +32,8 @@ function start_fire_audio1(){
 function close_fire_audio(){
     dialog.close()
     dialog1.close()
-    // iframe.style.display = 'none'
+    iframe.style.display = 'none'
+    iframe.src = ''
     audio1.pause()
     my_img.classList.remove('root')
 }
